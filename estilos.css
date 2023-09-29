@@ -1,0 +1,114 @@
+#estilo1 {
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+/* Estilo para las categorías */
+.categorias {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo para las columnas de categorías */
+.categoria {
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    margin: -20px;
+}
+
+/* Estilo para la primera columna */
+.columna1 {
+    flex: 1;
+    padding: 10px;
+}
+
+
+/* Estilo para la segunda columna */
+.columna2 {
+    flex: 1;
+    padding: 10px;
+}
+
+h1 {
+    font-family: "Arial", sans-serif; /* Tipo de fuente */
+    font-size: 26px; /* Tamaño de fuente */
+    font-weight: bold; /* Grosor de fuente (negrita) */
+    color: #333; /* Color de texto */
+    text-align: center; /* Alineación de texto */
+    text-transform: uppercase; /* Transforma el texto a mayúsculas */
+    margin-bottom: 20px; /* Espaciado inferior */
+    text-decoration: underline; /* Subrayado */
+}
+
+img {
+    width:220px;
+}
+
+.enlaces {
+    text-align: center; /* Alineación del texto al centro */
+}
+
+.enlaces a {
+    text-decoration: none; /* Quita la decoración de subrayado de los enlaces */
+    color: #fff; /* Color del texto de los enlaces */
+    margin: 0 10px; /* Margen horizontal entre los enlaces */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 26px; /* Tamaño de fuente */
+}
+
+.encabezado {
+    background-color: #333; 
+    color: #fff; 
+    padding: 14px 0; 
+}
+
+.categoria-fila6 {
+    background-color: #333; 
+    color: #fff; 
+    font-size: 18px;
+}
+
+#Nosotros {
+    background-color: #ffefef; /* Color de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Posición de la imagen de fondo */
+    color: #333; /* Color del texto */
+    padding: 1px; /* Espaciado interior para el contenido */
+    text-align: center; /* Alineación del texto */
+}
+
+#Productos {
+    background-color: #eef8e3; /* Color de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Posición de la imagen de fondo */
+    color: #333; /* Color del texto */
+    padding: 1px; /* Espaciado interior para el contenido */
+    text-align: center; /* Alineación del texto */
+}
+
+#Articulos {
+    background-color: #ccf7ff; /* Color de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Posición de la imagen de fondo */
+    color: #333; /* Color del texto */
+    padding: 1px; /* Espaciado interior para el contenido */
+    text-align: center; /* Alineación del texto */
+}
+.titulo {
+    font-family: "Arial", sans-serif; /* Tipo de fuente */
+    font-size: 24px; /* Tamaño de fuente */
+    font-weight: bold; /* Grosor de fuente (negrita) */
+    color: #ffffff; /* Color de texto */
+    text-align: left; /* Alineación de texto (izquierda) */
+    text-transform: uppercase; /* Transforma el texto a mayúsculas */
+    margin-bottom: 10px; /* Espaciado inferior */
+    text-align: center;
+}
+
+.precio {
+    font-weight: bold; /* Grosor de fuente (negrita) */
+    color: #ff5733; /* Color del precio (puedes personalizarlo) */
+    font-size: 18px; /* Tamaño de fuente del precio */
+    margin-top: 10px; /* Espaciado superior */
+}
